@@ -162,7 +162,7 @@ form {
 }
 .text-input {
     margin: 0 10px;
-    height: 34px;
+    height: 32px;
     border-radius: 2px;
     border: 1px solid rgb(194, 193, 193);
 }
@@ -189,3 +189,51 @@ form {
 .pss {
     border: 0;
 }
+
+
+.fields-button{
+	background-color: #0077C5;
+    border: 1px solid #4c4c4c;
+    color: white;
+    padding: 13px 19px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 4px;
+    font-weight: normal;
+
+}
+
+.fields-button-center{
+	display: flex;
+  	justify-content: center;
+}
+
+.fields-footer{
+	margin-top: 30px;
+	text-align: center;
+	font-style: italic;
+    color: #757575;
+    font-size: 12px;
+}
+
+.fields-footer p{
+
+    line-height: 1.7;
+
+}
+
+.fields-footer a{
+	color: #0077C5;
+	text-decoration: none;
+}
+
+.fields-captcha{
+	background-color: #ECEEF1;
+	margin: 32px -30px -30px;
+    padding: 16px;
+    text-align: center;
+    font-size: 10px;
+    color: #8d9096;
+}
+

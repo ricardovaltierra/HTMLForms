@@ -70,3 +70,11 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- COMMIT -->
 ## Commit Summary
 * Initial commit
+* Readme updated, assets for the project inserted and index created
+* add sign up
+* first set up of the form
+* begin of the form style and design
+* create a header & footer
+* design of the form fields
+* Add create account & form footer $ update de README.md
+* form finished with HTML & CCS3 validation

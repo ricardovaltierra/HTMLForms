@@ -75,6 +75,7 @@ body {
 }
 
 .header-text {
+    margin-top: 20px;
     display: grid;
     align-items: center;
     justify-items: center;
@@ -148,17 +149,18 @@ form {
     grid-auto-flow: row;    
     margin-bottom: 30px;
 }
-.mail-cont {
-     
-}
-.phone-cont {
-     
+
+.phone-cont span{
+     margin-left: 10px;
 }
 .phone-cont span{
      font-size: 10px;
 }
-.pass-cont {
-     
+label{
+     margin-left: 10px;
+     padding-bottom: 6px;
+     line-height: 25px;
+     font-size: 14px;
 }
 .text-input {
     margin: 0 10px;
@@ -183,7 +185,10 @@ form {
 }
 
 .password-input img {
-    width: 33px;
+    margin-top: 7px;
+    margin-right: 10px;
+    justify-self: end;
+    width: 21px;
 }
 
 .pss {
@@ -235,5 +240,10 @@ form {
     text-align: center;
     font-size: 10px;
     color: #8d9096;
+}
+
+.fields-captcha p a {
+    text-decoration: none;
+    color: #0077C5;
 }
 

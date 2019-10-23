@@ -8,7 +8,7 @@
 	<title>Mint Clone</title>
 
 	<link href="assets/css/style.css" rel="stylesheet" />
-	<script type="text/javascript"  src="assets/js/script.js"></script>	
+	
 </head>
 <body>
 
@@ -18,10 +18,10 @@
 				<a href="/"> I forgot my User ID or Password </a>
 			</div>
 			<button class="sign-in-button">
-				<div class="sign-in-img">
-					<img src="assets/images/lock.png">
-				</div> 
-				<div>Sign In</div>
+				<span class="sign-in-img">
+					<img src="assets/images/lock.png" alt="lock">
+				</span> 
+				<span>Sign In</span>
 			</button>
 
 		</div>
@@ -29,12 +29,12 @@
 
 	<header>
 		<div class="main-header">
-			<img src="assets/images/intuit.png">
+			<img src="assets/images/intuit.png" alt="intuit">
 		</div>
 		<div class="header-logo">
-			<img src="assets/images/mint.png">
-			<img src="assets/images/quick.png">
-			<img src="assets/images/turbotax.png">
+			<img src="assets/images/mint.png" alt="mint">
+			<img src="assets/images/quick.png" alt="quickbooks">
+			<img src="assets/images/turbotax.png" alt="turbotax">
 		</div>
 	</header>
 
@@ -49,31 +49,31 @@
 					<a href="#">Learn more</a>
 				</div>
 
-				<form id="form sign-up" action="#" method="POST">
+				<form id="form-sign-up" action="#" method="POST">
 					<div class="fields mail-cont">
 						<label for="email">Email address</label>						
-						<input class="text-input" type="email" required>
+						<input id="email" class="text-input" type="email" required>
 					</div>
 					<div class="fields phone-cont">
 						<label for="tel">Phone (recomended)</label>						
-						<input class="text-input" type="tel" required>
+						<input id="tel" class="text-input" type="tel" required>
 						<span>Standard call, messaging or data rates may apply.</span>
 					</div>
 					<div class="fields pass-cont">
 						<label for="password">Password</label>
 						<div class="password-input">
-							<input class="text-input pss" type="password" required>
-							<span><img src="assets/images/lock-left-grey@3x.png" alt=""></span>
+							<input id="password" class="text-input pss" type="password" required>
+							<img src="assets/images/lock-left-grey@3x.png" alt="lock">
 						</div>
 					</div>
 
 					<button class="fields-button">
-						<div class="fields-button-center">
-						<div class="fields-img">
-							<img src="assets/images/lock.png">
-						</div> 
-						<div>Create Account</div>
-						</div>
+						<span class="fields-button-center">
+						<span class="fields-img">
+							<img src="assets/images/lock.png" alt="lock">
+						</span> 
+						<span>Create Account</span>
+						</span>
 					</button>
 
 
@@ -86,11 +86,11 @@
 					</div>
 
 					
-
+				
 				</form>
 
 				<div class="fields-captcha">
-					<p>Invisible reCAPTCHA by Google Privacy Policy and Terms of Use.</p>
+					<p>Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Use.</a></p>
 				</div>
 
 			</div>

@@ -1,14 +1,19 @@
 *{
-	font-family: "AvenirNext",Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
-	background: #eceef1;
+	font-family: "AvenirNext",Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;	
+}
+
+body {
+    display: grid;
+    background: #eceef1;
 }
 
 
-.sign-in-nav{
-	float: right;
+.sign-in-nav{    
+    
 
 }
 .sign-in{
+    float: right;
 	display: flex;
 	margin-right: 37px;
 }
@@ -34,3 +39,48 @@
     border-radius: 4px;
     font-weight: normal;
 }
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.form-container {
+    width: 360px;
+    border-radius: 2px;
+    box-shadow: none;
+    background-color: white;     
+    border: 1px solid #c7c7c7; 
+    margin: auto; 
+    overflow: visible; 
+    padding: 30px; 
+}
+
+.header-text {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    
+}
+
+.form-title {
+    line-height: 1.1px;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+.form-subtitle {
+    text-align: center;    
+    color: #4C4C4C; 
+    padding-top: 20px;
+    font-size: 14px;
+}
+
+.header-text a {
+    color: #0077C5;
+    font-size: 12px;
+    text-decoration: none;
+    margin-top: 5px;
+}
+

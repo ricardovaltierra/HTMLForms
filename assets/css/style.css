@@ -8,11 +8,6 @@ body {
     color: #4C4C4C;
 }
 
-
-.sign-in-nav{    
-    
-
-}
 .sign-in{
     float: right;
 	display: flex;
@@ -41,11 +36,6 @@ body {
     font-weight: normal;
     display: flex;
 }
-
-.sign-in img{
-	height
-}
-
 
 .main-header{
 	display: flex;
@@ -140,6 +130,62 @@ body {
 }
 .footer-link-container a{
 	text-decoration: none;
-	color: #4C4C4C;]
+	color: #4C4C4C;
 	padding-left: 10px;
+}
+
+form {
+    width: 100%;;
+    margin-top: 20px;
+    display: grid;
+    grid-auto-flow: row;
+    justify-content: stretch;
+    
+}
+.fields {
+    width: 100%;
+    display: grid;
+    grid-auto-flow: row;    
+    margin-bottom: 30px;
+}
+.mail-cont {
+     
+}
+.phone-cont {
+     
+}
+.phone-cont span{
+     font-size: 10px;
+}
+.pass-cont {
+     
+}
+.text-input {
+    margin: 0 10px;
+    height: 34px;
+    border-radius: 2px;
+    border: 1px solid rgb(194, 193, 193);
+}
+
+.password-input {
+    display: grid;
+    grid-auto-flow: column;
+    margin: 0 10px;
+    height: 34px;
+    border-radius: 2px;
+    border: 1px solid rgb(194, 193, 193);
+}
+
+.text-input .pss {
+    margin: 0;
+    height: 34px;
+    border: black;
+}
+
+.password-input img {
+    width: 33px;
+}
+
+.pss {
+    border: 0;
 }

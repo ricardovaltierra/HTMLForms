@@ -5,6 +5,7 @@
 body {
     display: grid;
     background: #eceef1;
+    color: #4C4C4C;
 }
 
 
@@ -38,7 +39,34 @@ body {
     font-size: 15px;
     border-radius: 4px;
     font-weight: normal;
+    display: flex;
 }
+
+.sign-in img{
+	height
+}
+
+
+.main-header{
+	display: flex;
+  	justify-content: center;
+
+}
+.main-header img{
+	width: 118px;
+}
+
+
+.header-logo{
+	display: flex;
+  	justify-content: center;
+
+}
+.header-logo img{
+	height: 30px;
+    padding-bottom: 20px;
+}
+
 
 .container {
     display: flex;
@@ -84,3 +112,34 @@ body {
     margin-top: 5px;
 }
 
+
+
+
+
+.footer-content-container{
+	display: block;
+  	text-align: center;
+
+  	font-size: 12px;
+    margin-top: 20px;
+}
+.footer-link-container{
+    padding-top: 4px;
+}
+
+.footer-link-container ul{
+	padding:0px;
+    margin:0px;
+    list-style:none;
+
+}
+
+
+.footer-link-container li{
+	display: inline;
+}
+.footer-link-container a{
+	text-decoration: none;
+	color: #4C4C4C;]
+	padding-left: 10px;
+}

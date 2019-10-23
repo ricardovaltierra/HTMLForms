@@ -1,6 +1,3 @@
-# HTMLForms
-Display and Inputing Data Microverse Lesson from the HTML &amp; CSS3 Section
-
 <!--
 *** Thanks for checking out this README Template. 
 -->
@@ -9,7 +6,7 @@ Display and Inputing Data Microverse Lesson from the HTML &amp; CSS3 Section
 <!-- PROJECT TITLE -->
 
 <br />
-<h1 align="center">PROJECT TITLE</h1>
+<h1 align="center">HTML Forms</h1>
 
 
 
@@ -30,6 +27,7 @@ Display and Inputing Data Microverse Lesson from the HTML &amp; CSS3 Section
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+Display and Inputing Data Microverse Lesson from the HTML &amp; CSS3 Section
 
 
 
@@ -58,3 +56,4 @@ Display and Inputing Data Microverse Lesson from the HTML &amp; CSS3 Section
 
 <!-- COMMIT -->
 ## Commit Summary
+* Initial commit

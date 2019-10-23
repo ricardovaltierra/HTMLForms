@@ -1,0 +1,36 @@
+*{
+	font-family: "AvenirNext",Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	background: #eceef1;
+}
+
+
+.sign-in-nav{
+	float: right;
+
+}
+.sign-in{
+	display: flex;
+	margin-right: 37px;
+}
+.sign-in-text{
+	font-size: 12px;
+    margin-right: 7px;
+    line-height: 19px;
+    text-align: right;
+}
+.sign-in-text a{
+	color:#0077C5;
+	text-decoration: none;
+}
+.sign-in button{
+    background-color: #0077C5;
+    border: 1px solid #4c4c4c;
+    color: white;
+    padding: 7px 19px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 4px;
+    font-weight: normal;
+}

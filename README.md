@@ -28,6 +28,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+![Screenshot Image](images/screenshot.png)
+
 Display and Inputing Data Microverse Lesson from the HTML & CSS3 Section
 
 This project consists of building an HTML document that matches the appearance of mint.com’s signup page

@@ -28,7 +28,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![Screenshot Image](images/screenshot.png)
+![Screenshot Image](assets/images/screenshot.png)
 
 Display and Inputing Data Microverse Lesson from the HTML & CSS3 Section
 
